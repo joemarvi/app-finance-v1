@@ -1,0 +1,82 @@
+.container h1 {
+    padding-top: 40px;
+    margin-bottom: -10px;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: left;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.381);
+  }
+  
+  .container .separate {
+    width: 15%;
+    border: 1px solid rgb(0, 255, 136);
+    height: auto;
+  }
+  
+  // Properties Panel Plans And Metas
+  mat-expansion-panel {
+    padding: 10px;
+  }
+  
+  mat-panel-title {
+    font-size: 15px;
+    font-weight: 400;
+    font-weight: 600;
+    font-family: Work Sans, sans-serif;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+  }
+  
+  mat-panel-description {
+    font-size: 14px;
+    font-weight: 400;
+    font-weight: 400;
+    font-family: Work Sans, sans-serif;
+    color: rgb(0, 0, 0);
+  }
+  
+  .table-plans-and-metas {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.177);
+    font-family: Work Sans, sans-serif;
+  }
+  
+  .table-plans-and-metas th {
+    padding: 10px;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #00e466;
+  }
+  
+  .table-plans-and-metas td {
+    padding: 10px;
+  }
+  
+  mat-card {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  mat-card span {
+    font-size: 18px;
+    font-family: Work Sans;
+    color: #ffffff;
+  }
+  
+  mat-card-content {
+    padding: 20px;
+    font-size: 40px;
+    font-family: Work Sans;
+    color: #00e466;
+  }
+  
+  mat-icon {
+    scale: (1.5);
+    color: #e4c200;
+  }
+  

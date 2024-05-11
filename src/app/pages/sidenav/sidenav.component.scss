@@ -1,0 +1,109 @@
+// Properties of profile
+mat-sidenav .profile {
+  padding: 20px 0px 10px 50px;
+  margin: auto;
+}
+
+.profile-picture {
+  width: 80px;
+  height: auto;
+  margin: auto;
+}
+
+h1 {
+  margin: auto;
+  font-family: roboto, sans-serif;
+  font-size: 18px;
+  word-spacing: 5px;
+  opacity: 0.8;
+  color: rgba(255, 255, 255, 0.781);
+}
+
+mat-toolbar {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  background-color: #000000;
+}
+
+mat-sidenav-container {
+  margin: auto;
+  height: 100%;
+  background-color: rgba(238, 240, 239, 0.87);
+}
+
+// Move the content down so that it won't be hidden by the toolbar
+mat-sidenav {
+  padding-top: 3.5rem;
+  background-color: rgb(0, 0, 0);
+
+  @media screen and (min-width: 600px) {
+    padding-top: 4rem;
+    background-color: #000000;
+  }
+
+  .entry {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.75rem;
+    color: white;
+  }
+
+  .entry:hover {
+    color: #00DF73;
+    filter: opacity(.9);
+  }
+
+}
+// Move the content down so that it won't be hidden by the toolbar
+mat-sidenav-content {
+  padding-top: 3.5rem;
+
+  @media screen and (min-width: 600px) {
+    padding-top: 4rem;
+  }
+}
+
+// Properties Edit
+span {
+  color: #b4b4b4;
+}
+
+span:hover {
+  color: #ffffff;
+}
+
+.menu-toogle {
+  width: 100%;
+  height: auto;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.74);
+}
+
+.rounded {
+  width: 130px;
+  height: 20px 0px 20px 0px;
+  padding: 30px 10px 30px 10px;
+}
+
+.separate {
+  margin: auto;
+  margin-bottom: 10px;
+  width: 80%;
+  padding: 0.5px;
+  opacity: 0.6;
+  background-color: #00DF73;
+}
+
+.entry-logout {
+  font-weight: 500;
+  font-family: roboto, sans-serif;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.logout {
+  padding-top: 10px;
+  padding-left: 15px;
+}

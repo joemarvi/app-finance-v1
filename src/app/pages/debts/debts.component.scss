@@ -1,0 +1,168 @@
+.container {
+    display: flexbox;
+    margin: auto;
+    font-family: Work Sans, sans-serif;
+  }
+  
+  .container h1 {
+    padding-top: 40px;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: left;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.381);
+  }
+  
+  .container .separate {
+    width: 15%;
+    border: 1px solid #00BF63;
+    height: auto;
+  }
+  
+  // // Properties Bottons Actions
+  mat-icon {
+    float: left;
+    color: #00BF63;
+  }
+  
+  .buttons-actions mat-icon:hover {
+    scale: (1.3);
+    color: rgb(0, 0, 0);
+  }
+  
+  .debs-banks mat-icon {
+    float: right;
+    scale: (0.9);
+    color: #00BF63;
+  }
+  
+  .buttons-actions-main-expenses mat-icon:hover {
+    scale: (1.3);
+    color: rgb(0, 0, 0);
+  }
+  
+  .card {
+    margin: 10px;
+    font-family: Work Sans, sans-serif;
+    box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.177);
+  }
+  
+  .card-body h4 {
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+    color: rgba(159, 3, 3, 0.803);
+  }
+  
+  .card-body a {
+    float: right;
+    padding: 6px;
+    font-size: 15px;
+    text-decoration: none;
+    border: 1px solid gray;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .card-body a:hover {
+    font-size: 17px;
+    transition-duration: 0.3s;
+    color: #00BF63;
+    background-color: #000000;
+  }
+  
+  .card-title {
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #0f4434d5;
+  }
+  
+  .card-subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #5355549e;
+  }
+  
+  .card-text {
+    font-weight: 400;
+    font-size: 18px;
+    color: #01351c;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .container .card {
+      margin: auto;
+      margin-top: 15px;
+    }
+  }
+  
+  // Properties Banks Debs
+  h2 {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.381);
+  }
+  
+  // Properties Table Debs
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    text-align: left;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.177);
+  }
+  
+  th {
+    padding: 10px;
+    color: #ffffffc5;
+    font-weight: 600;
+    border: 1px solid rgba(128, 128, 128, 0.101);
+    background-color: #000000;
+  }
+  
+  td {
+    padding: 8px 8px 8px 8px;
+    text-align: left;
+    border: 1px solid rgba(128, 128, 128, 0.101);
+  }
+  
+  .balance-value {
+    width: 200px;
+    height: 200px;
+    padding: 40px;
+    margin-top: 30px;
+    border-radius: 50%;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    line-height: 50px;
+    color: #000000;
+    background-color: #ffffff;
+  }
+  
+  .balance-value h1 {
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 23px;
+    text-align: center;
+    text-shadow: none;
+    color: #000000;
+  }
+  
+  .balance-value span {
+    padding: 3pxs;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.211);
+    color: #019242;
+  }
+  
+  .title-restrictions {
+    font-size: 16px;
+  }
+  
+  .restrictions-name {
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+  

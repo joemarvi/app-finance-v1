@@ -1,0 +1,63 @@
+<mat-toolbar>
+  <button mat-icon-button aria-label="Menu icon" (click)="toggleMenu()">
+    <mat-icon class="menu-toogle">menu</mat-icon>
+  </button>
+</mat-toolbar>
+
+<mat-sidenav-container autosize>
+  <mat-sidenav [mode]="isMobile ? 'over' : 'side'" [opened]="isMobile ? 'false' : 'true'">
+    <div *ngIf="!isCollapsed" class="profile">
+      <img class="profile-picture" src="./assets/she-profile-v2-rounded.jpg" alt="image">
+    </div>
+    <mat-nav-list>
+      <a mat-list-item routerLink="/dashboard">
+        <span class="entry">
+          <mat-icon>house</mat-icon>
+          <span *ngIf="!isCollapsed">Home</span>
+        </span>
+      </a>
+
+      <a mat-list-item routerLink="expenses">
+        <span class="entry">
+          <mat-icon>assignment</mat-icon>
+          <span *ngIf="!isCollapsed">Expenses</span>
+        </span>
+      </a>
+
+      <a mat-list-item routerLink="debts">
+        <span class="entry">
+          <mat-icon>attach_money</mat-icon>
+          <span *ngIf="!isCollapsed">Debts</span>
+        </span>
+      </a>
+
+      <a mat-list-item routerLink="plans">
+        <span class="entry">
+          <mat-icon>style</mat-icon>
+          <span *ngIf="!isCollapsed">My Plans</span>
+        </span>
+      </a>
+
+    </mat-nav-list>
+
+    <div class="separate">
+    </div>
+
+    <div class="logout" *ngIf="!isCollapsed">
+      <a mat-list-item routerLink="login">
+        <span class="entry">
+          <mat-icon>logout</mat-icon>
+          <span class="entry-logout">Logout</span>
+        </span>
+      </a>
+    </div>
+
+    <div *ngIf="!isCollapsed">
+      <app-footer></app-footer>
+    </div>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>

@@ -1,0 +1,330 @@
+<div class="container p-3">
+    <h1>Main Expenses</h1>
+    <p>Track the main expenses of the month</p>
+    <div class="separate mb-5"></div>
+    <div class="row align-items-center">
+      <div class="col-sm-3">
+        <mat-card>
+          <mat-card-content>
+            <mat-icon>credit_score</mat-icon>
+            <span>Cards</span>
+            <h3>$ 1.256,32</h3>
+          </mat-card-content>
+        </mat-card>
+      </div>
+  
+      <div class="col-sm-3">
+        <mat-card>
+          <mat-card-content>
+            <mat-icon>currency_exchange</mat-icon>
+            <span>Montlhy Payment</span>
+            <h3>$ 256,32</h3>
+          </mat-card-content>
+        </mat-card>
+      </div>
+  
+      <div class="col-sm-3">
+        <mat-card>
+          <mat-card-content>
+            <mat-icon>monitor_heart</mat-icon>
+            <span>Health</span>
+            <h3>$ 431,18</h3>
+          </mat-card-content>
+        </mat-card>
+      </div>
+  
+      <div class="col-sm-3">
+        <mat-card>
+          <mat-card-content>
+            <mat-icon>home</mat-icon>
+            <span>Home</span>
+            <h3>$ 1.012,80</h3>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Properties Expenses Details General -->
+  <div class="container">
+    <div class="main-limits">
+      <div class="alert alert-info d-flex mt-5 mb-4" role="alert">
+        <mat-icon>error_outline</mat-icon>
+        <p>Check the limit available for using cards</p>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-sm-3">
+          <mat-card>
+            <mat-card-content>
+              <h5>Reference</h5>
+              <li>Food</li>
+              <li>Drink's</li>
+              <li>General Expenses</li>
+              <li>Montlhy Payment</li>
+              <li>Transport</li>
+            </mat-card-content>
+          </mat-card>
+        </div>
+  
+        <div class="col-sm-3">
+          <mat-card>
+            <mat-card-content>
+              <h5>Limit Value</h5>
+              <li>$ 250,00</li>
+              <li>$ 200,00</li>
+              <li>$ 200,00</li>
+              <li>$ 1.250,00</li>
+              <li>$ 100,00</li>
+            </mat-card-content>
+          </mat-card>
+        </div>
+  
+        <div class="col-sm-3">
+          <mat-card>
+            <mat-card-content>
+              <h5>Amount Spent</h5>
+              <li>$ 77,00</li>
+              <li>$ 36,00</li>
+              <li>$ 327,49</li>
+              <li>$ 1.118,47</li>
+              <li>$ 21,91</li>
+            </mat-card-content>
+          </mat-card>
+        </div>
+  
+        <div class="col-sm-3">
+          <mat-card>
+            <mat-card-content>
+              <h5>Available Limit</h5>
+              <li>$ 173,00</li>
+              <li>$ 164,00</li>
+              <li class="exceeded" style="color: red; font-weight: 600;">$ -127,49</li>
+              <li>$ 132,53</li>
+              <li>$ 78,09</li>
+            </mat-card-content>
+          </mat-card>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Properties Expense Register -->
+  <div class="container">
+    <div class="expense-register">
+      <h1>Daily Expenses</h1>
+      <p>Relationship of expenses per day</p>
+      <div class="separate mb-5"></div>
+      <div class="row text-align-center">
+        <table class="table-responsive">
+          <thead>
+            <tr>
+              <th>Expense Name</th>
+              <th>Description Expense</th>
+              <th>Category</th>
+              <th>Method Payment</th>
+              <th>Card Utilized</th>
+              <th>Cost (R$)</th>
+              <!-- <th>Actions</th> -->
+            </tr>
+          </thead>
+  
+          <tbody>
+            <tr>
+              <td>Panificadora Big Pão</td>
+              <td>Pão com manteiga e suco de laranja.</td>
+              <td>Food</td>
+              <td>Card Debit</td>
+              <td>Banco do Brasil</td>
+              <td>$ 12,58</td>
+              <!-- <td>
+                <mat-icon title="Edit Expense">edit</mat-icon>
+                <mat-icon title="Delete Expense">delete</mat-icon>
+              </td> -->
+            </tr>
+          </tbody>
+  
+          <tbody>
+            <tr>
+              <td>Distribuidora de Gás</td>
+              <td>Botijão de Gás</td>
+              <td>Home</td>
+              <td>Card Credit</td>
+              <td>Itaú</td>
+              <td>$ 99,50</td>
+              <!-- <td>
+                <mat-icon title="Edit Expense">edit</mat-icon>
+                <mat-icon title="Delete Expense">delete</mat-icon>
+              </td> -->
+            </tr>
+          </tbody>
+  
+          <tbody>
+            <tr>
+              <td>Google Play</td>
+              <td>Garena Jogos - Marcus Vinícius</td>
+              <td>General Expenses</td>
+              <td>Card Debit</td>
+              <td>Nubank</td>
+              <td>$ 14,00</td>
+              <!-- <td>
+                <mat-icon title="Edit Expense">edit</mat-icon>
+                <mat-icon title="Delete Expense">delete</mat-icon>
+              </td> -->
+            </tr>
+          </tbody>
+  
+          <tbody>
+            <tr>
+              <td>Depósito de Bebidas</td>
+              <td>Pack Heineken + Gelo - Depósito João</td>
+              <td>Drinks</td>
+              <td>Card Debit</td>
+              <td>Mercado Pago</td>
+              <td>$ 68,00</td>
+              <!-- <td>
+                <mat-icon title="Edit Expense">edit</mat-icon>
+                <mat-icon title="Delete Expense">delete</mat-icon>
+              </td> -->
+            </tr>
+          </tbody>
+  
+          <tbody>
+            <tr>
+              <td>Ortoplan</td>
+              <td>Manutenção aparelho - Marcus</td>
+              <td>Montlhy Payment</td>
+              <td>Card Credit</td>
+              <td>Itaú</td>
+              <td>$ 115,00</td>
+              <!-- <td>
+                <mat-icon title="Edit Expense">edit</mat-icon>
+                <mat-icon title="Delete Expense">delete</mat-icon>
+              </td> -->
+            </tr>
+          </tbody>
+        </table>
+        <div class="row align-items-center">
+          <!-- <div class="col-sm-3">
+            <button class="btn btn-primary"> + Add Expense</button>
+          </div> -->
+          <div class="col-sm-12">
+            <mat-paginator class="paginator" [length]="40" [pageSize]="5" [pageSizeOptions]="[5, 10, 25, 100]"
+              aria-label="Select page">
+            </mat-paginator>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <p title="Add Expense">Texto de teste</p> -->
+  
+  <!-- Properties Expenses Montlhy -->
+  <div class="container mb-5">
+    <div class="expense-register">
+      <h1>Montlhy Expenses</h1>
+      <p>Relationship of expenses per month</p>
+      <div class="separate mb-5"></div>
+      <div class="row text-align-center">
+        <table class="table-responsive">
+          <thead>
+            <tr>
+              <th>Expense Name</th>
+              <th>Description Expense</th>
+              <th>Category</th>
+              <th>Method Payment</th>
+              <th>Card Utilized</th>
+              <th>Cost (R$)</th>
+              <!-- <th>Actions</th> -->
+  
+            </tr>
+          </thead>
+  
+          <tbody>
+            <tr>
+              <td>Panificadora Big Pão</td>
+              <td>Pão com manteiga e suco de laranja.</td>
+              <td>Food</td>
+              <td>Card Debit</td>
+              <td>Banco do Brasil</td>
+              <td>$ 12,58</td>
+              <!-- <td>
+                <mat-icon title="Edit Expense">edit</mat-icon>
+                <mat-icon title="Delete Expense">delete</mat-icon>
+              </td> -->
+            </tr>
+          </tbody>
+  
+          <tbody>
+            <tr>
+              <td>Distribuidora de Gás</td>
+              <td>Botijão de Gás</td>
+              <td>Home</td>
+              <td>Card Credit</td>
+              <td>Itaú</td>
+              <td>$ 99,50</td>
+              <!-- <td>
+                <mat-icon title="Edit Expense">edit</mat-icon>
+                <mat-icon title="Delete Expense">delete</mat-icon>
+              </td> -->
+            </tr>
+          </tbody>
+  
+          <tbody>
+            <tr>
+              <td>Google Play</td>
+              <td>Garena Jogos - Marcus Vinícius</td>
+              <td>General Expenses</td>
+              <td>Card Debit</td>
+              <td>Nubank</td>
+              <td>$ 14,00</td>
+              <!-- <td>
+                <mat-icon title="Edit Expense">edit</mat-icon>
+                <mat-icon title="Delete Expense">delete</mat-icon>
+              </td> -->
+            </tr>
+          </tbody>
+  
+          <tbody>
+            <tr>
+              <td>Depósito de Bebidas</td>
+              <td>Pack Heineken + Gelo - Depósito João</td>
+              <td>Drinks</td>
+              <td>Card Debit</td>
+              <td>Mercado Pago</td>
+              <td>$ 68,00</td>
+              <!-- <td>
+                <mat-icon title="Edit Expense">edit</mat-icon>
+                <mat-icon title="Delete Expense">delete</mat-icon>
+              </td> -->
+            </tr>
+          </tbody>
+  
+          <tbody>
+            <tr>
+              <td>Ortoplan</td>
+              <td>Manutenção aparelho - Marcus</td>
+              <td>Montlhy Payment</td>
+              <td>Card Credit</td>
+              <td>Itaú</td>
+              <td>$ 115,00</td>
+              <!-- <td>
+                <mat-icon title="Edit Expense">edit</mat-icon>
+                <mat-icon title="Delete Expense">delete</mat-icon>
+              </td> -->
+            </tr>
+          </tbody>
+        </table>
+        <div class="row align-items-center">
+          <!-- <div class="col-sm-3">
+            <button class="btn btn-primary"> + Add Expense</button>
+          </div> -->
+          <div class="col-sm-12">
+            <mat-paginator class="paginator" [length]="40" [pageSize]="5" [pageSizeOptions]="[5, 10, 25, 100]"
+              aria-label="Select page">
+            </mat-paginator>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
